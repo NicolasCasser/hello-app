@@ -1,4 +1,4 @@
-# Projeto: Implementação de Pipeline CI/CD com GitHub Actions e GitOps
+# Implementação de Pipeline CI/CD com GitHub Actions e GitOps
 
 ## 1. Visão Geral do Projeto
 
