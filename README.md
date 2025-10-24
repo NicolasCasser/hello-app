@@ -202,8 +202,7 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 ## 4. Resultados e Evidências
 
 - **Pipeline GitHub Actions Executando com Sucesso**
-    
-    https://docs/github-actions-success.png
+  ![](img/kubectl-get-pods.png)   
     
 - **Imagens Publicadas no Docker Hub**
     
