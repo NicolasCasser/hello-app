@@ -202,23 +202,26 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 ## 4. Resultados e Evidências
 
 - **Pipeline GitHub Actions Executando com Sucesso**
-  ![](img/kubectl-get-pods.png)   
-    
+![GitHub Actions Workflow](img/build-and-push.png)
+
+![Update Manifests](img/update-manifests.png)
+
 - **Imagens Publicadas no Docker Hub**
-    
-    https://docs/docker-hub-tags.png
-    
+![Docker Hub Registry](img/repositorio-docker-hub.png)
+
 - **Aplicação Rodando no Kubernetes**
-    
-    https://docs/kubectl-get-pods.png
-    
+![Kubernetes Pods](img/kubectl-get-pods.png)
+
+![Kubernetes Deployment](img/kubectl-get-deployment-hello-app.png)
+
+![Kubernetes Services](img/kubectl-get-services.png)
+
 - **Acesso à Aplicação Funcionando**
-    
-    https://docs/curl-response.png
-    
+
+![Aplicação Response](img/resposta-da-aplicacao-via-curl.png)
+
 - **ArgoCD Sincronizado**
-    
-    https://docs/argocd-application.png
+![ArgoCD Application](img/aplicacao-rodando-no-argocd.png)
     
 
 ## 5. Conclusão
