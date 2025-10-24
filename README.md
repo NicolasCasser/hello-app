@@ -221,6 +221,7 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 ![Aplicação Response](img/resposta-da-aplicacao-via-curl.png)
 
 - **ArgoCD Sincronizado**
+  
 ![ArgoCD Application](img/aplicacao-rodando-no-argocd.png)
     
 
