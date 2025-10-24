@@ -202,28 +202,27 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 ## 4. Resultados e Evidências
 
 - **Pipeline GitHub Actions Executando com Sucesso**
-![GitHub Actions Workflow](img/build-and-push.png)
+<img width="1446" height="647" alt="build-and-push" src="https://github.com/user-attachments/assets/60d4eebc-9ec8-4928-aa01-07bcbe694e59" />
 
-![Update Manifests](img/update-manifests.png)
+<img width="1451" height="525" alt="update-manifests" src="https://github.com/user-attachments/assets/197356c7-018d-452e-b35f-b55f7c93b6a5" />
 
 - **Imagens Publicadas no Docker Hub**
-![Docker Hub Registry](img/repositorio-docker-hub.png)
+<img width="926" height="622" alt="repositorio-docker-hub" src="https://github.com/user-attachments/assets/0af3c52b-00da-446f-a38b-212fcda026e7" />
 
 - **Aplicação Rodando no Kubernetes**
-![Kubernetes Pods](img/kubectl-get-pods.png)
+<img width="841" height="88" alt="kubectl-get-pods" src="https://github.com/user-attachments/assets/c2ffaf7c-01ad-4a49-b7f4-d0d6d9e3f299" />
 
-![Kubernetes Deployment](img/kubectl-get-deployment-hello-app.png)
+<img width="615" height="76" alt="kubectl-get-deployment-hello-app" src="https://github.com/user-attachments/assets/ebe390ed-a505-476d-bc7c-c258eca47041" />
 
-![Kubernetes Services](img/kubectl-get-services.png)
+<img width="1002" height="113" alt="kubectl-get-services" src="https://github.com/user-attachments/assets/06a33a87-0d7a-4007-a639-f26de4ac1fe7" />
 
 - **Acesso à Aplicação Funcionando**
 
-![Aplicação Response](img/resposta-da-aplicacao-via-curl.png)
+<img width="682" height="57" alt="resposta-da-aplicacao-via-curl" src="https://github.com/user-attachments/assets/6c640624-1ff2-41c1-b017-bd6e35188864" />
 
 - **ArgoCD Sincronizado**
-  
-![ArgoCD Application](img/aplicacao-rodando-no-argocd.png)
-    
+      
+<img width="530" height="476" alt="aplicacao-rodando-no-argocd" src="https://github.com/user-attachments/assets/c6fea598-089e-40a5-a1ad-5384f1fdbc41" />
 
 ## 5. Conclusão
 
